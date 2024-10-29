@@ -4,6 +4,10 @@
         <title>像素之梦新手指南|Pixel Meng</title>
         <style>
             a {
+                color: black;
+                text-decoration: none;
+            }
+            h1 {
                 color: aquamarine;
             }
         </style>
@@ -16,59 +20,120 @@
             <li>&nbsp;&nbsp;<a href="#download_launcher">-下载启动器</a></li>
             <li>&nbsp;&nbsp;<a href="#download_minecraft">-下载Minecraft版本</a></li>
             <li>&nbsp;&nbsp;<a href="#go_into_server">-进入服务器</a></li>
-            <li><b>3.服务器体系</b></li>
-            <li>&nbsp;&nbsp;-货币体系</li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;-金币</li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;-点卷</li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;-像素币</li>
-            <li>&nbsp;&nbsp;-装备体系</li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;-淬炼体系</li>
+            <li><b><a href="#server_tixi">3.服务器体系</a></b></li>
+            <li>&nbsp;&nbsp;<a href="#money_tixi">-货币体系</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#gold_money">-金币</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#dq">-点卷</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#pixel_coin">-像素币</a></li>
+            <li>&nbsp;&nbsp;<a href="#zhuangbei_tixi">-装备体系</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#cuilian_tixi">-淬炼体系</a></li>
             <li>&nbsp;&nbsp;&nbsp;&nbsp;-宝石体系</li>
             <li>&nbsp;&nbsp;&nbsp;&nbsp;-宝珠体系</li>
             <li><b>4.鸣谢</b></li>
         <hr>
-            <h2><a href="#xu" name="xu">1.序</a></h2>
+        <h2><a href="#xu" name="xu">1.序</a></h2>
             这是一个由Minecraft服务器 像素之梦 玩家 driver166 组织主导的<b>第三方</b>像素之梦服务器教程，并不由腐竹、管理员进行授权或直接管理，有遗失之处请多多指教~
-            <hr>
-            <h2><a href="#startup" name="startup">2.开始的开始</a></h2>
+        <hr>
+        <h2><a href="#startup" name="startup">2.开始的开始</a></h2>
+            <p>
+                <b><a href="#download_launcher" name="download_launcher">2.1 下载Minecraft启动器</a></b><br>
+                目前的游戏启动器有很多种，像 <b>PCL2</b> <b>BakaXL</b> 还有 <b>HMCL</b>，那么为了照顾许多的新入坑Minecraft的萌新玩家们，本手册均采用了由<b>龙腾猫跃</b>开发的<b>PCL2</b>启动器。<br>
+                --下载PCL2<br>
+                打开浏览器，输入<a href="https://ltcat.lanzoum.com/b0aj6gsid"><b>下载地址</b></a>，密码填pcl2，点击确认。点击Release 2.x.x，然后点击普通下载。不出所料的话，你的浏览器就会开始自动下载压缩包了。
+                下载之后打开你的下载文件夹，右键刚刚下载下来的压缩包，选择“全部解压缩”(Windows 11)或“解压到 你的下载文件夹路径\Release 2.x.x”(Windows 10)。<br>
+                解压完成之后，双击打开刚刚解压到的文件夹，双击Plain Craft Launcher.exe，这样，你就成功地在自己的电脑上运行了一个Minecraft启动器。<br>
+                Q&A:<br>
+                Q:如果他说我没有安装.NET环境怎么办?<br>
+                A:去官网下载.NET4.5.0。<br>
+            </p>
+            <p>
+                <b><a href="#download_minecraft" name="download_minecraft">2.2 下载Minecraft版本</a></b><br>
+                打开PCL2，点击下载，你会看到像这样的一堆东西:<br>
+                <img src="./imgs/PCL2_Download.png"><br>
+                然后点开"正式版":<br>
+                <img src="./imgs/image.png"><br>
+                点击1.20.4，就是这个：
+                <img src="./imgs/img2.png"><br>
+                你可以选择安装原版，Forge，或者Fabric。点击"开始安装"，PCL2就会自己帮你下载版本了。<br>
+                Q&A:<br>
+                Q:安装不成功怎么办?<br>
+                A:多试几遍，或者换个网络试试。
+            </p>
+            <p>
+                <b><a href="#go_into_server" name="go_into_server">2.3 进入服务器</a></b><br>
+                在下载好了版本之后，你就可以启动游戏了(哦耶！！！)。进入PCL2界面中的"启动"部分的框框<br><img src="./imgs/img3.png"><br>中填入自己的用户名，然后按下面的"启动游戏"，等待一会，PCL2就会启动游戏了。<br>
+                在进入服务器之前，我们还需要进行一些些小小的设置(<b>非必须，不想设置的玩家可以跳过这一部分</b>)，这可以让你的游戏体验变得更加好。<br><br>
+                1.点击选项，点击视频设置，把"垂直同步"设置调为"关"<br>
+                2.同样是在视频设置，把最大帧率拉到最大<br>
+                3.还是视频设置，把渲染距离和模拟距离都调成6<br>
+                调完这些，你就可以开心的进入服务器玩耍了。<br><br>
+                回到最初始的界面，点击"多人游戏"，再点击"添加服务器"。上面的服务器名称可以随便填，这里以"像素之梦生存服务器"为例。然后，在下面的服务器地址里填上像素之梦服务器的地址，也就是<a style="color: blue;">mc.recraft.cc</a>:<br>
+                <img src="./imgs/imgs4.png"><br>
+                点击完成，你就添加好了服务器。<br>
+                选中刚添加的服务器，点击"加入服务器"，你就成功的进入了服务器。进入服务器后按照聊天框的指引注册或者登录，如果你发现有人用了你的id，那么可以关闭游戏，换个用户名再试试。<br>
+                如果你成功注册了，那么你手上应该会出现一个末影之眼。手持它并右键，你就可以选择你想去的区。<br>
+                <b><i>注意！</i>各个区之间的数据并不互通，建议只玩一个区！</b>
+            </p>
+        <hr>
+        <h2><a href="#server_tixi" name="server_tixi">3. 服务器体系</a></h2>
+            <p>
+                <b><a href="#money_tixi" name="money_tixi">3.1 货币体系</a></b>
                 <p>
-                    <b><a href="#download_launcher" name="download_launcher">2.1 下载Minecraft启动器</a></b><br>
-                    目前的游戏启动器有很多种，像 <b>PCL2</b> <b>BakaXL</b> 还有 <b>HMCL</b>，那么为了照顾许多的新入坑Minecraft的萌新玩家们，本手册均采用了由<b>龙腾猫跃</b>开发的<b>PCL2</b>启动器。<br>
-                    ·下载PCL2<br>
-                    打开浏览器，输入<a href="https://ltcat.lanzoum.com/b0aj6gsid">下载地址</a>，密码填pcl2，点击确认。点击Release 2.x.x，然后点击普通下载。不出所料的话，你的浏览器就会开始自动下载压缩包了。
-                    下载之后打开你的下载文件夹，右键刚刚下载下来的压缩包，选择“全部解压缩”(Windows 11)或“解压到 你的下载文件夹路径\Release 2.x.x”(Windows 10)。<br>
-                    解压完成之后，双击打开刚刚解压到的文件夹，双击Plain Craft Launcher.exe，这样，你就成功地在自己的电脑上运行了一个Minecraft启动器。<br>
-                    Q&A:<br>
-                    Q:如果他说我没有安装.NET环境怎么办?<br>
-                    A:去官网下载.NET4.5.0。<br>
+                    <a href="#gold_money" name="gold_money">3.1.1 金币</a><br>
+                    金币，是服务器里万物贸易的基础，也是服务器最基本的货币。在了解其他货币之前，我们就首先需要了解金币体系是怎么运作的。<br>
+                    金币可以用于玩家间交易，通常用于玩家A购买玩家B的物品，一般在玩家之间流通。金币可以买很多东西，从最基础的生存物资，到最高级的宝石宝珠，都可以通过金币交易获得。<br>
+                    <br>
+                    <b>如何创建一个自己的商店</b><br>
+                    首先，你需要有至少一个你想要收购或者贩卖的物品。拿出一个箱子，放在任何你想当作商店的地方。手持你想收购或者贩卖的物品右键，输入你想要贩卖或者收购的价格，按下键盘上的Enter或者回车键，这样，你就成功的创建了一个自己的商店。<br>
+                    而对于收购来说则要多一步操作。<b>在你是店主的前提下</b>右键商店的告示牌，点击聊天框里的"回收类型:售卖[修改]"后面的修改，他就会自动把商店修改成收购模式<br><br>
+                    <b>怎么购买他人的物品</b><br>
+                    对着告示牌左键，然后输入你想要购买的物品数量，就可以购买了！(前提是你有足够多的金币)<br>
+                    那说了这么多，<b>怎么获取金币呢</b>？<br>
+                    获取金币有好几种方式，像前面说的，第一你可以通过卖东西赚钱，还有就是你可以通过活动、抽奖等服务器官方渠道获取，比如你可以通过每天签到来获取金币。<br>
+                    <br>
+                    <a href="#dq" name="dq">3.1.2 点券</a><br>
+                    点券和金币的性质差不多，都是一种在市场上流通的货币，不过应用范围不一样。前面讲过，金币适用于任何范围，包括P(Player)2(to)S(Server)(玩家对服务器)交易还有P2P(玩家对玩家)交易。可是点券不一样，他只适合于P2S交易，你只能用点券在服务器那里买资源，不能向玩家买资源。这就是金币与点券最大的区别。<br>
+                    <br>
+                    <b>如何获取点券</b><br>
+                    点券只能通过服务器渠道获得，比如抽奖、<del>向腐竹氪金</del>活动领取等等。<br>
+                    <br>
+                    <b>点券可以买什么</b><br>
+                    点券就可以买很多更高级的东西了，比如大部分的抽奖券、一些装备例如范围镐（快速挖掘3x3x3内方块）、副本的进入名额等。<br>
+                    <br>
+                    <b>总结：</b>点券就是一种只能对服务器进行交易的货币，使用它你可以买更多你用金币买不到的东西，但是获取门槛很高，需要充钱才能获得。<br>
+                    <br>
+                    <a href="#pixel_coin" name="pixel_coin">3.1.3 像素币</a><br>
+                    像素币是一种比较特殊的货币，它只能购买相当少的物品，并不是主流货币。<br>
+                    不过，你仍然可以使用像素币购买一些例如抽奖券的物品。<br>
+                    <br>
+                    <b>总结：</b>小众，获取难。<br>
                 </p>
+                <b><a href="#zhuangbei_tixi" name="zhuangbei_tixi">3.2 装备体系</a></b>
                 <p>
-                    <b><a href="#download_minecraft" name="download_minecraft">2.2 下载Minecraft版本</a></b><br>
-                    打开PCL2，点击下载，你会看到像这样的一堆东西:<br>
-                    <img src="./imgs/PCL2_Download.png"><br>
-                    然后点开"正式版":<br>
-                    <img src="./imgs/image.png"><br>
-                    点击1.20.4，就是这个：
-                    <img src="./imgs/img2.png"><br>
-                    你可以选择安装原版，Forge，或者Fabric。点击"开始安装"，PCL2就会自己帮你下载版本了。<br>
-                    Q&A:<br>
-                    Q:安装不成功怎么办?<br>
-                    A:多试几遍，或者换个网络试试。
+                    <b><a href="#cuilian_tixi" name="cuilian_tixi">3.2.1 淬炼体系</a></b>
+                    <p>
+                        在讲淬炼体系之前，我们必须得先了解一个东西，那就是服务器里的淬炼石。<br>
+                        淬炼石通常形状为附魔"水下呼吸I"的木炭，煤炭，下界之星，带有淬炼石对应的等级。<br>
+                        其中，形状为木炭的淬炼石淬炼效果最差，煤炭中等，下界之星最好。<br>
+                        不过，也不能只看淬炼石的等级。如果你要淬炼的装备的<a href="cuilian_stars">淬炼星数</a>在0~6级，那么通常建议你使用"普通淬炼宝石"。<br>
+                        而如果你要淬炼的装备的<a href="cuilian_stars">淬炼星数</a>在6~10级，则建议你使用"中等淬炼宝石"。<br>
+                        而10级以上则可以按需挑选自己需要的淬炼宝石进行淬炼。
+                    </p>
+                    <p>
+                        回到正题，那么我们该怎么淬炼呢?<br>
+                        在聊天框打出"/spawn"或者"/cd"之后点击信标，你就会回到主城。<br>
+                        找到一个叫淬炼铁砧的NPC，如图所示:<br>
+                        <img src="./imgs/img5.png"><br>
+                        然后右键他，会得到这样的界面:<br>
+                        <img src="./imgs/img6.png"><br>
+                        这是区域图示:<br>
+                        <img src="./imgs/img7.png"><br>
+                        放好装备和材料后点击末影水晶就可以淬炼惹=w=(好耶~)<br>
+                        星数越高，淬炼越容易失败。当你淬炼高等级物品的时候(10星+)，除非很有把握，否则建议添加<a href="#ronghuo">熔火珠</a>后再继续淬炼。<br>
+                        (此教程正在持续更新中，如有疑问可以添加作者QQ:2399421609或者在游戏中<b>私聊</b>玩家:driver166)
+                        
+                    </p>
                 </p>
-                <p>
-                    <b><a href="#go_into_server" name="go_into_server">2.3 进入服务器</a></b><br>
-                    在下载好了版本之后，你就可以启动游戏了(哦耶！！！)。进入PCL2界面中的"启动"部分的框框<br><img src="./imgs/img3.png"><br>中填入自己的用户名，然后按下面的"启动游戏"，等待一会，PCL2就会启动游戏了。<br>
-                    在进入服务器之前，我们还需要进行一些些小小的设置(<b>非必须，不想设置的玩家可以跳过这一部分</b>)，这可以让你的游戏体验变得更加好。<br><br>
-                    1.点击选项，点击视频设置，把"垂直同步"设置调为"关"<br>
-                    2.同样是在视频设置，把最大帧率拉到最大<br>
-                    3.还是视频设置，把渲染距离和模拟距离都调成6<br>
-                    调完这些，你就可以开心的进入服务器玩耍了。<br><br>
-                    回到最初始的界面，点击"多人游戏"，再点击"添加服务器"。上面的服务器名称可以随便填，这里以"像素之梦生存服务器"为例。然后，在下面的服务器地址里填上像素之梦服务器的地址，也就是<a style="color: blue;">mc.recraft.cc</a>:<br>
-                    <img src="./imgs/imgs4.png"><br>
-                    点击完成，你就添加好了服务器。<br>
-                    选中刚添加的服务器，点击"加入服务器"，你就成功的进入了服务器。进入服务器后按照聊天框的指引注册或者登录，如果你发现有人用了你的id，那么可以关闭游戏，换个用户名在试试。<br>
-                    如果你成功注册了，那么你手上应该会出现一个末影之眼。手持它并右键，你就可以选择你想去的区。<br>
-                    <b>注意！各个区之间的数据并不互通，建议只玩一个区！</b>
-                </p>
+            </p>
     </body>
 </html>
